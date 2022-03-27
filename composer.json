@@ -1,0 +1,22 @@
+{
+    "name": "animus77/php-esp",
+    "description": "sending data through esp to php",
+    "type": "project",
+    "require": {
+        "illuminate/database": "9.x-dev",
+        "doctrine/migrations": "9999999-dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "animus77",
+            "email": "animus7@outlook.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
